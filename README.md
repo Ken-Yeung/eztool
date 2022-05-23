@@ -10,5 +10,5 @@
 ## Introduction :loudspeaker:
  - This repository is displaying some of the programs that I created and is displayable.
  - These programs' languages are mainly Python working with some JavaScript.
-### Now I would introduce my creation's workflow:receipt: below:
- - [Auto Following bot for Instagram]
+### Here's my creation workflow:receipt::
+ - Auto Following bot for Instagram
