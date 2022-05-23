@@ -1,2 +1,2 @@
-<h1 align="center">Welcome to Ken's Exhibition</h1>
-# milestone
+<h1 align="center">:confetti_ball:Welcome to Ken's Exhibition:tada:</h1>
+# Milestone
