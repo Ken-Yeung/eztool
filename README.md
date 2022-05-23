@@ -1,3 +1,4 @@
 <h1 align="center">:confetti_ball:Welcome to Ken's Exhibition:tada:</h1>
 
-## Milestone :receipt:
+# Introduction :loudspeaker:
+ - This repositorie is displaying some of the programs that I created and displayable.
