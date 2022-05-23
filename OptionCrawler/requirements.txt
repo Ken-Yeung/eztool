@@ -1,0 +1,5 @@
+openpyxl
+selenium
+pandas_datareader
+requests
+bs4

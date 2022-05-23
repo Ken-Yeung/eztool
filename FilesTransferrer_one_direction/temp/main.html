@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Server</title>
+    <style>
+        body {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            padding: 33px;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #3f3f3f;
+            color: white;
+        }
+        #uploadForm {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            padding: 33px;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        #btn {
+            margin-top: 12px;
+            width: 189px;
+            height: 45px;
+            color: black;
+            background-color: yellow;
+            font-size: 18px;
+        }
+
+        input[type=file]::file-selector-button {
+            border: 2px solid #47ffff;
+            padding: .2em .4em;
+            border-radius: .2em;
+            /* background-color: #47ffff; */
+            color: black;
+            transition: .9s;
+            height: 45px;
+            width: 189px;
+            font-size: 18px;
+        }
+
+        input[type=file]::file-selector-button:hover {
+            /* background-color: #68ff4a; */
+            border: 2px solid #68ff4a;
+        }
+
+        .noshow {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <form action="/uploadfiles" id="uploadForm" enctype="multipart/form-data">
+        <!-- <input name="user_input" type="text" placeholder="Input Here"><br><br> -->
+        <input class="choose_files" name="files" type="file" multiple><br><br>
+        <input id="btn" type="submit" value="Upload">
+    </form>
+    <h3>Progress: </h3>
+    <h3 id="progress">0%</h3>
+    <!-- Start Script -->
+    <script src="/cdn/axios.min.js"></script>
+    <script src="/cdn/main.min.js"></script>
+    <!-- End Script -->
+</body>
+</html>
