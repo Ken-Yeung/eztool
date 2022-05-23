@@ -8,32 +8,55 @@
 </div>
 
 ## Introduction :loudspeaker:
- - This repository is displaying some of the programs that I created and is displayable.
- - These programs' languages are mainly Python working with some JavaScript.
+
+-   This repository is displaying some of the programs that I created and is displayable.
+-   These programs' languages are mainly Python working with some JavaScript.
+
 ### Here's my creation workflow :receipt:
- 1. [Instagram Auto Following Bot](#instagram-auto-following-bot-robot)
- 2. [Option Data Crawler](#option-data-crawler-floppy_disk)
- 3. [Link Tree](#link-tree-evergreen_tree)
- 4. [File Transfer Server](#file-transfer-server-card_index_dividers)
- 5. [Api Initial Template](#api-initial-template-file_cabinet)
+
+1.  [Instagram Auto Following Bot](#instagram-auto-following-bot-robot)
+2.  [Option Data Crawler](#option-data-crawler-floppy_disk)
+3.  [Link Tree](#link-tree-evergreen_tree)
+4.  [File Transfer Server](#file-transfer-server-card_index_dividers)
+5.  [Api Initial Template](#api-initial-template-file_cabinet)
+
 ---
-## Instagram Auto Following Bot :robot:
+
+### Instagram Auto Following Bot :robot:
+
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
- - This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
- - Using Python plugin Selenium to achieve the objective
+
+-   This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
+-   Using Python plugin Selenium to achieve the objective
+
 ---
-## Option Data Crawler :floppy_disk:
+
+### Option Data Crawler :floppy_disk:
+
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/OptionCrawler "Go to OptionCrawler repo")
- - Description
+
+-   Description
+
 ---
-## Link Tree :evergreen_tree:
+
+### Link Tree :evergreen_tree:
+
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/LinkDistributor "Go to LinkDistributor repo")
- - Description
+
+-   Description
+
 ---
-## File Transfer Server :card_index_dividers:
+
+### File Transfer Server :card_index_dividers:
+
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/FilesTransferrer_one_direction "Go to FilesTransferrer_one_direction repo")
- - Description
+
+-   Description
+
 ---
-## Api Initial Template :file_cabinet:
+
+### Api Initial Template :file_cabinet:
+
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo")
- - Description
+
+-   Description
