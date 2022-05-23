@@ -10,7 +10,6 @@
 ## Introduction :loudspeaker:
  - This repository is displaying some of the programs that I created and is displayable.
  - These programs' languages are mainly Python working with some JavaScript.
----
 ### Here's my creation workflow :receipt:
  1. [Instagram Auto Following Bot](#instagram-auto-following-bot-robot)
  2. [Option Data Crawler](#option-data-crawler-floppy_disk)
