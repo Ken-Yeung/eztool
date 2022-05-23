@@ -11,8 +11,11 @@
  - This repository is displaying some of the programs that I created and is displayable.
  - These programs' languages are mainly Python working with some JavaScript.
 ### Here's my creation workflow:receipt::
- - [Instagram Auto Following Bot](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow)
+ - [Instagram Auto Following Bot](Instagram-Auto-Following-Bot)
  - Option Data Crawler
  - Link Tree
  - File Transfer Server
  - Api Initial Template
+ ### Instagram Auto Following Bot:robot:
+  - This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
+  - Using Python plugin Selenium to achieve the objective
