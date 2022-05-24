@@ -27,7 +27,7 @@
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
 
 -   This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
--   Using Python plugin Selenium to achieve the objective
+-   Using Python plugin `selenium` to achieve the objective
 -   It is able to follow 120 users per 10 hours (adjustable)
 -   By that, it could generate 10-15 follower per day
 
@@ -74,7 +74,20 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/OptionCrawler "Go to OptionCrawler repo")
 
--   Description
+-   This script is crawling Hong Kong options' data using plugins `selenium` and `pandas_datareader`
+-   Extracting 3 options' data of call and put bid price, strike price where strike price is closest to current stock price.
+-   To extract specific company's stock, option data, you have to change the Row values of companies code in `stock_list.xlsx` sheet of `data`
+
+1. Stock price would display in sheet: `data`
+2. Option data would display in sheet: `strike`
+
+### Usage:
+
+-   Enter the command: `python3 main.py`
+
+### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+
+-   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
 
 ---
 
