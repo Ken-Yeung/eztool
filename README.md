@@ -46,6 +46,7 @@
 
 -   Instagram would change their web layout regularly, therefore, please check and [modify](#modifying-xpath) the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
+-   This script only works in CPU format of AMD
 
 ### Modifying XPATH
 
@@ -74,8 +75,8 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/OptionCrawler "Go to OptionCrawler repo")
 
--   This script is crawling Hong Kong options' data using plugins `selenium` and `pandas_datareader`
--   Extracting 3 options' data of call and put bid price, strike price where strike price is closest to current stock price.
+-   This script is crawling Hong Kong options' data using plugins `selenium` and `pandas_datareader`, incert it into `stock_list.xlsx`
+-   Extracting 3 options' data of call and put bid price, strike price where strike price is closest to current stock price
 -   To extract specific company's stock, option data, you have to change the Row values of companies code in `stock_list.xlsx` sheet of `data`
 
 1. Stock price would display in sheet: `data`
@@ -88,6 +89,7 @@ follow_btn = 'XPATH of target followers button inside dialog'
 ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
 
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
+-   This script only works in CPU format of AMD
 
 ---
 
@@ -95,7 +97,14 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/LinkDistributor "Go to LinkDistributor repo")
 
--   Description
+-   This is the [link tree](https://bit.ly/utaxihkapp "Go to uTaxi's Link Tree") I created as Company **uTaxi** required
+-   This is a server framework of `FastAPI`
+-   It is capible to redirect user to specific location of both google play store and app store
+-   With the ability to track when and which link they clicked
+
+### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+
+-   This script might only works in CPU format of AMD
 
 ---
 
@@ -103,7 +112,20 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/FilesTransferrer_one_direction "Go to FilesTransferrer_one_direction repo")
 
--   Description
+-   This is a simple [FTP](https://zh.wikipedia.org/zh-hk/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE "What is FTP") that I created for convience use
+-   The reason of that is I found out there is difficulty to transfer files from mobile phones to computer, E.g. Transfer photo from iPhone to Windows OS
+-   This script solved the problem by hosting a `FastAPI` server to recieve files via same internet enviornment
+-   Initially transferred files would save in database folder, saving path could change by modifying the path in `.env`
+
+### Usage
+
+-   Then double click the `Upload.exe` (Only for Windows)
+
+-   For MacOs please run the code `python3 main.py`
+
+### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+
+-   This script only works in CPU format of AMD
 
 ---
 
@@ -111,4 +133,8 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo")
 
--   Description
+-   This is the initial template
+
+### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+
+-   This script works in both CPU format of AMD and ARM
