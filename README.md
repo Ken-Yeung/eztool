@@ -29,6 +29,20 @@
 -   This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
 -   Using Python plugin Selenium to achieve the objective
 
+-   It is able to follow 120 users per 10 hours (adjustable)
+-   By that, it could generate 10-15 follower per day
+
+### Usage:
+
+```
+This is code
+```
+
+<h3><font color="red">!!!</font> Notice <font color="red">!!!</font></h3>
+
+-   Instagram would change their web layout regularly, therefore, please check the elements XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
+-   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
+
 ---
 
 ### Option Data Crawler :floppy_disk:
