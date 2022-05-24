@@ -38,7 +38,7 @@
 This is code
 ```
 
-<h3><font color="red">!!!</font> Notice <font color="red">!!!</font></h3>
+### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
 
 -   Instagram would change their web layout regularly, therefore, please check the elements XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
