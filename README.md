@@ -42,7 +42,9 @@
 
 -   For MacOs please run the code `python3 IGBOTv2.1.py`
 
-### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
+#### :bangbang: Notice :bangbang:
 
 -   Instagram would change their web layout regularly, therefore, please check and [modify](#modifying-xpath) the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
@@ -86,7 +88,9 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 -   Enter the command: `python3 main.py`
 
-### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
+#### :bangbang: Notice :bangbang:
 
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
 -   This script only works in CPU format of AMD
@@ -102,7 +106,9 @@ follow_btn = 'XPATH of target followers button inside dialog'
 -   It is capible to redirect user to specific location of both google play store and app store
 -   With the ability to track when and which link they clicked
 
-### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
+#### :bangbang: Notice :bangbang:
 
 -   This script might only works in CPU format of AMD
 
@@ -123,7 +129,9 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 -   For MacOs please run the code `python3 main.py`
 
-### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
+#### :bangbang: Notice :bangbang:
 
 -   This script only works in CPU format of AMD
 
@@ -133,8 +141,14 @@ follow_btn = 'XPATH of target followers button inside dialog'
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo")
 
--   This is the initial template
+-   This is customized initial template for me to quickly start up a server for production
 
-### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
+### Usage
+
+-   Enter the command: `python3 main.py`
+
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
+#### :bangbang: Notice :bangbang:
 
 -   This script works in both CPU format of AMD and ARM
