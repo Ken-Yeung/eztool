@@ -28,20 +28,45 @@
 
 -   This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
 -   Using Python plugin Selenium to achieve the objective
-
 -   It is able to follow 120 users per 10 hours (adjustable)
 -   By that, it could generate 10-15 follower per day
 
 ### Usage:
 
-```
-This is code
-```
+-   Go to `info.txt`
+
+1. Enter the value of Account
+2. Enter the value of Password
+3. Enter the value of TargetUser (Meaning: target user's profile name)
+4. Then double click the `Start.exe` (Only for Windows)
+
+-   For MacOs please run the code `python3 IGBOTv2.1.py`
 
 ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
 
--   Instagram would change their web layout regularly, therefore, please check the elements XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
+-   Instagram would change their web layout regularly, therefore, please check and modify the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
+
+### Modifying XPATH
+
+-   Please modify the values inside `IGBOTv2.1.py`
+
+```
+ac_field = 'XPATH of account field'
+pw_field = 'XPATH of password field'
+login_btn = 'XPATH of login button'
+
+phone_verify_field = 'XPATH of Phone verify fields'
+verify_btn = 'XPATH of button of verify phone auth'
+
+later_save_info = 'XPATH of button in warning message of save later'
+
+home_icon = 'XPATH of Instagram's Icon'
+
+open_the_dialog = 'XPATH of the button that open the target followers dialog'
+dialog = 'XPATH of target followers dialog'
+follow_btn = 'XPATH of target followers button inside dialog'
+```
 
 ---
 
