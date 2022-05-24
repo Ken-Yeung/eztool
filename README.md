@@ -44,7 +44,7 @@
 
 ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation:
 
--   Instagram would change their web layout regularly, therefore, please check and modify the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
+-   Instagram would change their web layout regularly, therefore, please check and [modify](#modifying-xpath) the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
 
 ### Modifying XPATH
