@@ -72,6 +72,7 @@ follow_btn = 'XPATH of target followers button inside dialog'
 ```
 
 Variable | Value | Type
+--- | --- | ---
 ac_field | XPATH of account field | str
 pw_field | XPATH of password field | str
 login_btn | XPATH of login button | str
