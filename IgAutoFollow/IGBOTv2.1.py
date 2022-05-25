@@ -109,18 +109,6 @@ def login(ac, pswd):
     driver.find_element(by=By.XPATH, value=ac_field).send_keys(ac)
     driver.find_element(by=By.XPATH, value=pw_field).send_keys(pswd)
 
-    # try:
-    #     _verify_field = driver.find_element(by=By.XPATH, value=phone_verify_field)
-    #     isVerify = _verify_field.get_attribute('aria-label') == '安全驗證碼'
-
-    #     if isVerify:
-    #         verify = input('Your verify number: ')
-    #         _verify_field.send_keys(verify)
-    #         driver.find_element(by=By.XPATH, value=verify_btn).click()
-    #         countdown(6)
-    # except:
-    #     pass
-
     try:
         driver.find_element(by=By.XPATH, value=later_save_info).click()
     except:
@@ -133,7 +121,6 @@ def login(ac, pswd):
             driver.find_element(by=By.XPATH, value=verify_btn).click()
             countdown(6)
             driver.find_element(by=By.XPATH, value=later_save_info).click()
-    # driver.find_element(by=By.XPATH, value=login_btn).click()
 #################################################################################
 def checkloading(webid):
     try:
@@ -148,7 +135,6 @@ def checkloading(webid):
 def open_dialog():
     try:
         driver.find_element(by=By.XPATH, value=open_the_dialog).click()
-        # driver.find_element(by=By.XPATH, value=follow_btn)
         pass
     except NoSuchElementException:
         driver.get("https://www.instagram.com/"+ user+ "/")
@@ -240,7 +226,6 @@ def follow():
                 file.write(str(tabulate(data, headers=headers, tablefmt="grid")))
             count(60 * 5)##!!
 
-        # driver.get("https://www.instagram.com/")
         count(60 * 3)##!!
     
     print(now.strftime("End in: %d/%m | %X"))
@@ -283,12 +268,9 @@ if __name__ == "__main__":
         pass
 
     checkloading(home_icon)
-    # driver.find_element(by=By.XPATH, value='/html/body/div[4]/div/div/div[3]/button[2]').click()
-    # countdown(6)
     clear()
     then = datetime.now()
     follow()
-    # print("follow")
     driver = remote.dr
     driver.quit
     exit()

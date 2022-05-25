@@ -28,13 +28,6 @@ def glob_file():
             elif ii[1] == "android":
                 android = android + 1
 
-        # res[file_name] = {
-        #     "count_ios": ios,
-        #     "count_android": android,
-        #     "total": len(details[1:]),
-        #     "details": details[1:]
-        # }
-
         res.append(
             {
                 "month": file_name,
@@ -44,9 +37,6 @@ def glob_file():
                 "details": details[1:]
             }
         )
-    
-    # for i in res:
-    #     print(f"{i}: {res[i]}")
 
     return res
 

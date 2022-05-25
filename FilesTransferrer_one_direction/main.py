@@ -14,12 +14,6 @@ from script.ip import get_ip_address
 from script.get_path import target_path
 from script.convert_path import convert_path
 from script.qrcode import qrcode
-# from time import sleep
-# from multiprocessing import Process
-# import multiprocessing
-
-# POST http://192.168.0.122/uploadfiles 422 (Unprocessable Entity)
-# 400
 
 try:
     ip = get_ip_address()
@@ -77,26 +71,8 @@ async def catch_file(files: UploadFile = File(...)):
         sys.stdout.write("="*54 + "\n")
     return {"result": True}
 
-# @app.on_event("startup")
-# async def startup_event():
-#     logger = logging.getLogger("uvicorn.access")
-#     handler = logging.StreamHandler()
-#     handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
-#     logger.addHandler(handler)
-
 if __name__ == "__main__":
     try:
-        # manager = multiprocessing.Manager()
-        # shared_list = manager.list()
-        # pool = multiprocessing.Pool()
-
-        # pool.apply_async(sys.stdout.write(f"Please Go To: http://{ip}"))
-        # pool.apply_async(uvicorn.run(app, host = "0.0.0.0", port = 80, log_level="info"))
-
-        # pool.close()
-        # pool.join()
-
-        # sys.stdout.write(f"Please Go To: http://{ip}")
 
         log_config = uvicorn.config.LOGGING_CONFIG
         log_config["formatters"]["access"]["fmt"] = "%(asctime)s - - %(levelname)s - %(message)s"
@@ -104,7 +80,6 @@ if __name__ == "__main__":
 
         uvicorn.run(app, host = "0.0.0.0", port = 80, log_config=log_config)
         input("Push Enter to Quit: ")
-        # uvicorn.run(app, host = "0.0.0.0", port = 80, log_level="info")
     except:
         traceback.print_exception(*sys.exc_info())
         input()

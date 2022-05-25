@@ -26,10 +26,11 @@
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
 
--   This is the very first script that I created for aggressively generate numbers of Following and Follower for IG profile
+-   This is the very first script that I created 
+-   Function included: aggressively generate numbers of Following and Follower for IG profile
 -   Using Python plugin `selenium` to achieve the objective
 -   It is able to follow 120 users per 10 hours (adjustable)
--   By that, it could generate 10-15 follower per day
+-   By that, it could generate 5-15 follower per day
 
 ### Usage:
 
@@ -46,10 +47,9 @@
 
 #### :bangbang: Notice :bangbang:
 
--   Instagram would change their web layout regularly, therefore, please check and [modify](#modifying-xpath) the elements' XPATH is correct for current version of Instagram layout before using it ( I did not update it for few months already )
+-   Instagram seems to change their web layout regularly, therefore, please check the elements' XPATH is correct for current version of Instagram layout, if not, you should [modify](#modifying-xpath) before using it ( I did not update it for few months already )
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
 -   This script only works in CPU format of AMD
-
 ### Modifying XPATH
 
 -   Please modify the values inside `IGBOTv2.1.py`
@@ -70,6 +70,9 @@ open_the_dialog = 'XPATH of the button that open the target followers dialog'
 dialog = 'XPATH of target followers dialog'
 follow_btn = 'XPATH of target followers button inside dialog'
 ```
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 ---
 

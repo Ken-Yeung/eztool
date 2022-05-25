@@ -84,10 +84,6 @@ class xw_table:
 
     def clear_row(self, sht, max_row):
         shit = self.excel.sheets[str(sht)]
-        # for i in range(2, max_row+1):
-        #     shit.Rows(i).Delete
-        # shit.range(f'2:{str(max_row)}').api.delete(DeleteShiftDirection.xlShiftUp)
-        # shit.range(f'2:{str(max_row)}').api.Delete(DeleteShiftDirection.xlShiftUp)
         self.excel.save()
         return False
 
@@ -149,9 +145,6 @@ def option(driver, stock):
 def into_excel(excel, sht, start, details):
     xl = xw_table(excel)
     table = xl.get_table(sht, start)
-    # print(len(table))
-    # print(table)
-    # xl.clear_row(sht, len(table))
     table = xl.get_table(sht, start)
     a = np.array(table)
     if len(a.shape) < 2:
