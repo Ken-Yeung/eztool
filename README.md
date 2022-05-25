@@ -72,25 +72,25 @@ follow_btn = 'XPATH of target followers button inside dialog'
 ```
 
 Variable | Value | Type
---- | --- | ---
+<!-- --- | --- | --- -->
 ac_field | XPATH of account field | str
---- | --- | ---
+<!-- --- | --- | --- -->
 pw_field | XPATH of password field | str
---- | --- | ---
+<!-- --- | --- | --- -->
 login_btn | XPATH of login button | str
---- | --- | ---
+<!-- --- | --- | --- -->
 phone_verify_field | XPATH of Phone verify fields | str
---- | --- | ---
+<!-- --- | --- | --- -->
 verify_btn | XPATH of button of verify phone auth | str
---- | --- | ---
+<!-- --- | --- | --- -->
 later_save_info | XPATH of button in warning message of save later | str
---- | --- | ---
+<!-- --- | --- | --- -->
 home_icon | XPATH of Instagram's Icon | str
---- | --- | ---
+<!-- --- | --- | --- -->
 open_the_dialog | XPATH of the button that open the target followers dialog | str
---- | --- | ---
+<!-- --- | --- | --- -->
 dialog | XPATH of target followers dialog | str
---- | --- | ---
+<!-- --- | --- | --- -->
 follow_btn | XPATH of target followers button inside dialog | str
 
 ---
