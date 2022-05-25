@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet:<br>Welcome to Api Initial Template</h1>
+<h1 align="center">:evergreen_tree:<br>Welcome to Link Tree</h1>
 
 <div align="center">
 <a herf="https://github.com/Ken-Yeung/KensToolkit.git"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Badge"/></a>
@@ -15,23 +15,23 @@
 
 1.  [Instagram Auto Following Bot](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
 2.  [Option Data Crawler](https://github.com/Ken-Yeung/KensToolkit/tree/master/OptionCrawler "Go to OptionCrawler repo")
-3.  [Link Tree](https://github.com/Ken-Yeung/KensToolkit/tree/master/LinkDistributor "Go to LinkDistributor repo")
+3.  [Link Tree](#link-tree-evergreen_tree) <-- YOU ARE HERE
 4.  [File Transfer Server](https://github.com/Ken-Yeung/KensToolkit/tree/master/FilesTransferrer_one_direction "Go to FilesTransferrer_one_direction repo")
-5.  [Api Initial Template](#api-initial-template-file_cabinet) <-- YOU ARE HERE
-<!-- (https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo") -->
+5.  [Api Initial Template](https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo")
 
 -   [Back to Home Page](https://github.com/Ken-Yeung/KensToolkit "Home Page")
 
 ---
 
-### Api Initial Template :file_cabinet:
+### Link Tree :evergreen_tree:
 
--   This is customized initial template for me to quickly start up a server for production
+-   This is the [link tree](https://bit.ly/utaxihkapp "Go to uTaxi's Link Tree") I created for Company **uTaxi** as a gift
+-   This is a server framework of `FastAPI`
+-   It is capible to redirect user to google play store or app store base on user's preference
+-   With the ability to track when and which link they clicked
 
-### Usage
-
--   Enter the command: `python3 main.py`
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
 
 #### :bangbang: Notice :bangbang:
 
--   This script works in both CPU format of AMD and ARM
+-   This script might only works in CPU format of AMD

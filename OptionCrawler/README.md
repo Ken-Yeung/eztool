@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet:<br>Welcome to Api Initial Template</h1>
+<h1 align="center">:floppy_disk:<br>Welcome to Option Data Crawler</h1>
 
 <div align="center">
 <a herf="https://github.com/Ken-Yeung/KensToolkit.git"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python Badge"/></a>
@@ -14,24 +14,33 @@
 ### Here's my creation workflow :receipt:
 
 1.  [Instagram Auto Following Bot](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
-2.  [Option Data Crawler](https://github.com/Ken-Yeung/KensToolkit/tree/master/OptionCrawler "Go to OptionCrawler repo")
+2.  [Option Data Crawler](#option-data-crawler-floppy_disk) <-- YOU ARE HERE
 3.  [Link Tree](https://github.com/Ken-Yeung/KensToolkit/tree/master/LinkDistributor "Go to LinkDistributor repo")
 4.  [File Transfer Server](https://github.com/Ken-Yeung/KensToolkit/tree/master/FilesTransferrer_one_direction "Go to FilesTransferrer_one_direction repo")
-5.  [Api Initial Template](#api-initial-template-file_cabinet) <-- YOU ARE HERE
-<!-- (https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo") -->
+5.  [Api Initial Template](https://github.com/Ken-Yeung/KensToolkit/tree/master/FastApiTemplate "Go to FastApiTemplate repo")
 
 -   [Back to Home Page](https://github.com/Ken-Yeung/KensToolkit "Home Page")
 
 ---
 
-### Api Initial Template :file_cabinet:
+### Option Data Crawler :floppy_disk:
 
--   This is customized initial template for me to quickly start up a server for production
+-   This script is crawling Hong Kong options' data using plugins `selenium` and `pandas_datareader`
+-   Extract data from Yahoo Finance and HKEX into `stock_list.xlsx`
+-   Extracting 3 options which strike price are closest to current stock price
+-   Pulling data of call bid, put bid price and strike price
+-   To extract specific company's stock, option data, you have to change the Row values of companies code in `stock_list.xlsx` sheet of `data`
 
-### Usage
+1. Stock price would display in sheet: `data`
+2. Option data would display in sheet: `strike`
+
+### Usage:
 
 -   Enter the command: `python3 main.py`
 
+<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
+
 #### :bangbang: Notice :bangbang:
 
--   This script works in both CPU format of AMD and ARM
+-   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
+-   This script only works in CPU format of AMD

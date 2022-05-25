@@ -26,6 +26,7 @@
 ---
 
 ### Instagram Auto Following Bot :robot:
+![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
 [Portal :door:](https://github.com/Ken-Yeung/KensToolkit/tree/master/IgAutoFollow "Go to IgAutoFollow repo")
 
