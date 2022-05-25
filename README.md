@@ -12,7 +12,8 @@
 -   This repository is displaying some of the programs that I created and is displayable.
 -   These programs' languages are mainly Python working with some JavaScript.
 >   $ python --version
->   >   Python 3.7.0
+>
+>   Python 3.7.0
 
 ### Here's my creation workflow :receipt:
 
