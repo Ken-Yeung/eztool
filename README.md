@@ -47,8 +47,6 @@
 
 -   For MacOs please run the code `python3 IGBOTv2.1.py`
 
-<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
-
 #### :bangbang: Notice :bangbang:
 
 -   Instagram seems to change their web layout regularly, therefore, please check the elements' XPATH is correct for current version of Instagram layout, if not, you should [modify](#modifying-xpath) before using it ( I did not update it for few months already )
@@ -91,8 +89,6 @@ follow_btn | XPATH of target followers button inside dialog | str
 
 -   Enter the command: `python3 main.py`
 
-<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
-
 #### :bangbang: Notice :bangbang:
 
 -   Chrome remote driver might not work if the version of that does not match the version of Chrome in local
@@ -108,8 +104,6 @@ follow_btn | XPATH of target followers button inside dialog | str
 -   This is a server framework of `FastAPI`
 -   It is capible to redirect user to google play store or app store base on user's preference
 -   With the ability to track when and which link they clicked
-
-<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
 
 #### :bangbang: Notice :bangbang:
 
@@ -133,8 +127,6 @@ follow_btn | XPATH of target followers button inside dialog | str
 
 -   For MacOs please run the code `python3 main.py`
 
-<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
-
 #### :bangbang: Notice :bangbang:
 
 -   This script only works in CPU format of AMD
@@ -150,8 +142,6 @@ follow_btn | XPATH of target followers button inside dialog | str
 ### Usage
 
 -   Enter the command: `python3 main.py`
-
-<!-- ### :exclamation::exclamation::exclamation: Notice :exclamation::exclamation::exclamation: -->
 
 #### :bangbang: Notice :bangbang:
 
