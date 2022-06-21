@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eztool
+Version: 0.0.1
+Summary: A package makes your life easier.
+Home-page: None
+Author: Ken Yeung
+Author-email: 
+License: MIT
+Project-URL: Bug Tracker, None
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A package makes your life easier.

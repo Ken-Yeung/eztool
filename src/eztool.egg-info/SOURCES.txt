@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/eztool/__init__.py
+src/eztool/json_worker.py
+src/eztool/og.py
+src/eztool/pyxl_handler.py
+src/eztool/xw_handler.py
+src/eztool.egg-info/PKG-INFO
+src/eztool.egg-info/SOURCES.txt
+src/eztool.egg-info/dependency_links.txt
+src/eztool.egg-info/top_level.txt
+test/test.py
