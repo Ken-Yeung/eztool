@@ -11,5 +11,6 @@ src/eztool/xw_handler.py
 src/eztool.egg-info/PKG-INFO
 src/eztool.egg-info/SOURCES.txt
 src/eztool.egg-info/dependency_links.txt
+src/eztool.egg-info/requires.txt
 src/eztool.egg-info/top_level.txt
 test/test.py

@@ -1,0 +1,5 @@
+setuptools>=42
+wheel
+pytz==2021.1
+xlwings==0.22.2
+openpyxl==3.0.7
