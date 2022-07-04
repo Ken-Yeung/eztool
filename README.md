@@ -1,5 +1,10 @@
 # A package makes your life easier.
 
+## Installation
+```
+pip install eztool
+```
+
 ## Usage
 ### Time now by timezone and format
 ```
