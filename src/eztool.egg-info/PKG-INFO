@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: eztool
-Version: 0.0.2
+Version: 0.0.3
 Summary: Useful tools makes your life easier.
 Home-page: https://github.com/Ken-Yeung/KensToolkit/tree/eztool
 Author: Ken Yeung
@@ -15,3 +15,20 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # A package makes your life easier.
+
+## Installation
+```
+pip install eztool
+```
+
+## Usage
+### Time now by timezone and format
+```
+import eztool
+
+now = eztool.t_now(timezone = "Hongkong", time_fmt = "%d/%m/%Y %H:%M:%S")
+
+print(now)
+
+# output: 20/4/2004 15:20:40
+```

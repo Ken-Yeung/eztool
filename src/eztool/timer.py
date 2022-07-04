@@ -12,7 +12,7 @@ class timer:
     def start(self) -> str:
         self.startTime = time.perf_counter()
 
-        if debug:
+        if self.debug:
             print(f"{self.head}: Start timing.")
 
         return str(self.startTime)
@@ -21,7 +21,7 @@ class timer:
         self.endTime = time.perf_counter()
         res = self.endTime - self.startTime
 
-        if debug:
+        if self.debug:
             print(f"{self.head}: Consumed {str(res)} seconds.")
 
         return str(res)
