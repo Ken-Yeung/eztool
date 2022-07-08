@@ -20,3 +20,17 @@ print(now)
 
 # output: 20/4/2004 15:20:40
 ```
+### Timer
+```
+from eztool.timer import timer
+
+T = timer()
+
+T.start()
+# output: eztool [Timer]: Start timing.
+
+### Your Code Here
+
+T.stop()
+# output: eztool [Timer]: Consumed 0.054247083000000015 seconds.
+```
