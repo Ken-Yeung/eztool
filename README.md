@@ -26,11 +26,11 @@ from eztool.timer import timer
 
 T = timer()
 
-T.start()
+T.start() # return start time in string
 # output: eztool [Timer]: Start timing.
 
 ### Your Code Here
 
-T.stop()
+T.stop() # return time consumed in string
 # output: eztool [Timer]: Consumed 0.054247083000000015 seconds.
 ```
