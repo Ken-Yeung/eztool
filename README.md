@@ -13,10 +13,10 @@
 ```
 pip install eztool
 ```
-### For installing on Linux, run this before install
+<!-- ### For installing on Linux, run this before install
 ```
 export INSTALL_ON_LINUX=1
-```
+``` -->
 ---
 ## Usage
 ### Time now by timezone and format
