@@ -1,5 +1,14 @@
 # A package makes your life easier.
-
+## To Do List:
+- [x] Get Time By Timezone
+- [x] Timer
+- [ ] Character Checker
+- [ ] Time Calculator
+- [ ] Timestamp Convertor
+- [ ] MySQL Controller
+- [ ] Redis Controller
+- [ ] SurrealDB Controller
+---
 ## Installation
 ```
 pip install eztool
