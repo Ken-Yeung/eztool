@@ -20,13 +20,15 @@ pw_field = '//*[@id="loginForm"]/div/div[2]/div/label/input'
 login_btn = '//*[@id="loginForm"]/div/div[3]/button'
 phone_verify_field = '//*[@id="react-root"]/section/main/div/div/div[1]/div[2]/form/div[1]/div/label/input'
 verify_btn = '//*[@id="react-root"]/section/main/div/div/div[1]/div[2]/form/div[2]/button'
-later_save_info = '//*[@id="react-root"]/section/main/div/div/div/div/button'
+later_save_info = '//*[@id="mount_0_0_Nu"]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/div/div/div/button'# '//*[@id="react-root"]/section/main/div/div/div/div/button'
 
-home_icon = '//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[6]/span'
+home_icon = '/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/nav/div[2]/div/div/div[1]/div[1]/a/div'# '//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[6]/span'
 
-open_the_dialog = '//*[@id="react-root"]/section/main/div/header/section/ul/li[2]/a'
-dialog = 'body > div.RnEpo.Yx5HN > div > div > div > div.isgrP > ul > div'
-follow_btn = "//button[@class='sqdOP  L3NKy   y3zKF     '][.='追蹤']"
+open_the_dialog = '/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/header/section/ul/li[2]/a'# '//*[@id="react-root"]/section/main/div/header/section/ul/li[2]/a'
+# dialog = '/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[1]'
+dialog = '/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[1]/div'
+# follow_btn = "//button[@class='_acan _acap _acas'][.='追蹤']"
+follow_btn = "//div[@class='_ab8w  _ab94 _ab97 _ab9h _ab9k _ab9p  _abb0 _abcm'][.='追蹤']"
 
 def getDuration(then, now, interval = "default"):
 
@@ -124,6 +126,7 @@ def login(ac, pswd):
 #################################################################################
 def checkloading(webid):
     try:
+        print(f"Finding {webid}")
         countdown(6)
         driver.find_element(by=By.XPATH, value=webid)
         pass
@@ -193,12 +196,14 @@ def follow():
 
     driver.get("https://www.instagram.com/"+ user+ "/")
 
-    checkloading('//*[@id="react-root"]/section/main/div/header/section/div[1]/h2')
+    # checkloading('//*[@id="react-root"]/section/main/div/header/section/div[1]/h2')
+    checkloading('/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/section/main/div/header/section/div[1]/a/h2')
 
     open_dialog()
+    time.sleep(3)
     for z in range(10):
 
-        FList = driver.find_element(by=By.CSS_SELECTOR, value=dialog)
+        FList = driver.find_element(by=By.XPATH, value=dialog)
         print("Dialog found")
         numberOfFollowersInList = len(FList.find_elements(by=By.XPATH, value=follow_btn))
         print("All Can Follow")
@@ -270,7 +275,13 @@ if __name__ == "__main__":
     checkloading(home_icon)
     clear()
     then = datetime.now()
-    follow()
+
+    while True:
+        try:
+            follow()
+        except KeyboardInterrupt:
+            print("Stoping Follow")
+            break
     driver = remote.dr
     driver.quit
     exit()
